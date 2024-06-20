@@ -10,3 +10,4 @@ function removeColor() {
 		}
 	}
 }
+document.getElementsByTagName('input')[0].addEventListener('click', removeColor);
